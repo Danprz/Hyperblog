@@ -1,6 +1,5 @@
 body
 {
-    background: darkgrey;
     color: rgb(42, 59, 52);
     text-align: center;
     font-family: "Arial";
@@ -10,13 +9,13 @@ body
 }
 #cabecera
 {
-    background: teal;
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    background: rgba(63, 167, 106, 0.733);
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.75);
     color: whitesmoke;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     margin: 0;
-    padding: 0.5em 0 0.5em 2em;
+    padding: 0.5em;
 
 }
 #cabecera #logo
@@ -24,6 +23,7 @@ body
     width: 35px;
     vertical-align: middle;
 }
+
 #cabecera #tagline
 {
     padding: 0 0 0 1em;
@@ -45,6 +45,12 @@ body
 }
 #post
 {
-    background: whitesmoke;
     padding: 1em;
+}
+#footer
+{
+    background: rgba(63, 167, 106, 0.733);
+    color: whitesmoke;
+    text-align: center;
+    padding: 0.5em;
 }

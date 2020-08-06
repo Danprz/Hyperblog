@@ -38,3 +38,14 @@ body
 {
     font-size: 20px;
 }
+#post
+{
+    padding: 1em;
+}
+#footer
+{
+    background: tomato;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0.5em;
+}
